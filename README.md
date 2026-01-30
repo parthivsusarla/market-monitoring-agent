@@ -1,12 +1,12 @@
 # Market Monitoring AI Agent
 
-A market intelligence AI agent that monitors financial, policy, and macroeconomic news and classifies developments as **IMPORTANT** or **IGNORE** based on potential market impact.
+A market intelligence AI agent that monitors financial, policy, and other economic news and classifies developments as how important they are and presents the result to you accordingly.
 
 ## Features
 - LangChain-based ReAct agent
 - Groq LLM integration
 - Real-time news ingestion
-- IMPORTANT vs IGNORE classification
+- Important vs Ignore classification
 - Fault-tolerant execution with retries
 - Streamlit frontend
 
@@ -50,3 +50,6 @@ Gold prices surge after US Fed signals rate cuts
 Indian stock market reacts to global recession fears
 
 Gold prices today
+
+## Some outputs
+<img width="1438" height="970" alt="Screenshot 2026-01-30 181855" src="https://github.com/user-attachments/assets/7aa39bf7-0d0c-4e14-842c-067957e40405" />
