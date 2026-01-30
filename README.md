@@ -24,23 +24,26 @@ A market intelligence AI agent that monitors financial, policy, and macroeconomi
 ```bash
 git clone https://github.com/parthivsusarla/market-agent.git
 cd market-agent
-
+```
 ### 2. Create virtual environment
+```
 uv venv
 .venv\Scripts\activate
-
+```
 ### 3. Install dependencies
+```
 uv pip install -r requirements.txt
-
+```
 ### 4. Set environment variables
+```
 setx GROQ_API_KEY "your_groq_key"
 setx NEWS_API_KEY "your_newsapi_key"
-
+```
 ### 5. Run the app
+```
 streamlit run app.py
-
-## 
-Example Prompts
+```
+## Example Prompts
 
 Gold prices surge after US Fed signals rate cuts
 
